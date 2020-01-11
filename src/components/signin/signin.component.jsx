@@ -21,7 +21,7 @@ class SignIn extends React.Component {
     const { value, name } = e.target;
     this.setState({
       [name]: value
-    })
+    });
   }
 
   handleSubmit = (e) => {
